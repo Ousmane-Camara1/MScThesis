@@ -1,0 +1,11 @@
+run_id,video_name,buffer_size,first_release_processing_frame,first_release_source_frame,measured_delay_frames,measured_delay_ms_at_30fps,first_protected_release_processing_frame,first_protected_release_source_frame,first_protected_processing_frame,first_release_elapsed_ms
+exp6_M0_video1_r10,video7,0,0,0,0.000000,0.000000,,,,59.885289
+exp6_M0_video1_r1,video7,0,0,0,0.000000,0.000000,,,,57.092899
+exp6_M0_video1_r2,video7,0,0,0,0.000000,0.000000,,,,55.941991
+exp6_M0_video1_r3,video7,0,0,0,0.000000,0.000000,,,,64.171442
+exp6_M0_video1_r4,video7,0,0,0,0.000000,0.000000,,,,60.416328
+exp6_M0_video1_r5,video7,0,0,0,0.000000,0.000000,,,,55.883490
+exp6_M0_video1_r6,video7,0,0,0,0.000000,0.000000,,,,61.589626
+exp6_M0_video1_r7,video7,0,0,0,0.000000,0.000000,,,,77.967472
+exp6_M0_video1_r8,video7,0,0,0,0.000000,0.000000,,,,54.298749
+exp6_M0_video1_r9,video7,0,0,0,0.000000,0.000000,,,,61.082939

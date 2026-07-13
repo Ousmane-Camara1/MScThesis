@@ -1,0 +1,33 @@
+experiment,figure_stem,description,data_source
+E1,e1_overall_mean_fps,Overall mean FPS with run-to-run standard deviation.,run summaries
+E1,e1_fps_all_sequences,Per-video mean FPS for all baseline architectures and Pipeline V2.,run summaries
+E1,e1_overall_target_leakage,Target-frame-weighted leakage rate for all architectures.,run summaries
+E1,e1_frame_latency_distribution,Distribution of frame-level processing latency.,frame metrics
+E2,e2_pipeline_v1_v2_dumbbell,Paired per-video throughput comparison.,run summaries
+E2,e2_pipeline_v1_v2_leakage,Per-video target leakage for Pipeline V1 and Pipeline V2.,run summaries
+E2,e2_stage_latency_comparison,Mean stage-level processing latency for V1 and V2.,frame metrics
+E3,e3_fps_by_cnn_interval,Mean FPS by scheduled CNN interval.,run summaries
+E3,e3_p95_latency_by_cnn_interval,Mean run-level 95th-percentile latency by interval.,run summaries
+E3,e3_leakage_by_cnn_interval,Target-frame-weighted leakage by interval.,run summaries
+E3,e3_interval_tradeoff,Throughput versus target leakage for each interval.,run summaries
+E3,e3_interval_5_6_confirmation,Paired full-dataset comparison of the selected intervals.,run summaries
+E3,e3_observed_cnn_execution_rate,"Observed CNN execution rate, including aggressive reacquisition.",frame metrics
+E3,e3_frame_latency_trace,Representative frame-level latency trace with CNN frames marked.,frame metrics
+E4,e4_temperature_over_time,Experiment 4: Temperature during sustained processing,frame metrics
+E4,e4_cpu_over_time,Experiment 4: CPU utilization during sustained processing,frame metrics
+E4,e4_cpu_frequency_over_time,Experiment 4: CPU frequency during sustained processing,frame metrics
+E4,e4_rolling_fps_over_time,Rolling 300-frame throughput over the thermal run.,frame metrics
+E5,e5_aggregate_leakage,Target-frame-weighted leakage across the privacy ablation.,run summaries
+E5,e5_leakage_all_sequences,Per-video leakage across all ablation configurations.,run summaries
+E5,e5_max_consecutive_leakage,Maximum consecutive target-frame leakage by configuration.,run summaries
+E5,e5_target_frame_composition,"Protected, partially protected, and leaked target-frame composition.",run summaries
+E5,e5_throughput_privacy_tradeoff,Throughput versus leakage for each temporal-memory ablation.,run summaries
+E5,e5_throughput_by_target_density,Observed Pipeline V2 throughput versus mean visible target count.,frame metrics and run summaries
+E5,e5_leakage_by_target_density,Observed Pipeline V2 leakage versus mean visible target count.,frame metrics and run summaries
+E5,e5_video3_privacy_timeline,Frame-level worst-target privacy status during the selected occlusion sequence.,target metrics
+E6,e6_unprotected_frames_by_buffer,Experiment 6: Startup exposure by buffer capacity,run summaries
+E6,e6_startup_dropped_frames,Experiment 6: Frames withheld during startup,run summaries
+E6,e6_nominal_output_delay,Nominal delay implied by each buffer capacity.,configured buffer sizes
+E6,e6_measured_output_delay,Measured frame-index delay between processing and release.,output-event logs
+E6,e6_startup_timeline,Mean first-protection and first-release events by buffer capacity.,frame metrics and output-event logs
+E6,e6_buffer_tradeoff,Measured delay versus unprotected output exposure.,run summaries and output-event logs

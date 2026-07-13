@@ -1,0 +1,2 @@
+buffer_size,runs,measured_delay_frames,measured_delay_ms_at_30fps,first_release_processing_frame,first_protected_processing_frame,first_protected_release_processing_frame,first_release_elapsed_ms
+0,10,0.000000,0.000000,0.000000,,,60.833022

@@ -1,0 +1,7 @@
+flatbuffers==25.12.19
+numpy==2.4.6
+onnxruntime==1.27.0
+opencv-python==5.0.0.93
+packaging==26.2
+protobuf==7.35.1
+psutil==7.2.2

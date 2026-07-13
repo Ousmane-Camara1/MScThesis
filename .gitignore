@@ -1,0 +1,10 @@
+data/
+results/
+models/*.onnx
+thesis_results_outputs/figures/
+*.mp4
+*.onnx
+.DS_Store
+__pycache__/
+*.pyc
+venv/

@@ -1,0 +1,42 @@
+THESIS FIGURE DATA-QUALITY REPORT
+=================================
+
+Results root: /home/ousmanecamara/smart_cam/results
+Generated figures: 32
+Warnings: 0
+Failures: 0
+
+DISCOVERED EXPERIMENT DIRECTORIES
+=================================
+
+e1[1]: experiment_1_baselines
+e2[1]: experiment_2_v1_vs_v2
+e3[1]: experiment_3_cnn_interval
+e3_confirmation[1]: experiment_3_cnn_interval_confirmation
+e4[1]: experiment_4_thermal
+e5[1]: experiment_5_privacy
+e6[1]: experiment_6_startup_buffer
+
+RAW FILE INVENTORY
+------------------
+
+E1: summaries=2, frame_metrics=180, target_metrics=180, output_events=30
+E2: summaries=1, frame_metrics=60, target_metrics=60, output_events=60
+E3: summaries=2, frame_metrics=150, target_metrics=150, output_events=150
+E4: summaries=2, frame_metrics=4, target_metrics=4, output_events=2
+E5: summaries=2, frame_metrics=120, target_metrics=120, output_events=90
+E6: summaries=1, frame_metrics=40, target_metrics=40, output_events=40
+
+INTERPRETATION NOTES
+--------------------
+Experiment 1 retains the timing-boundary limitation documented in Chapter 4.
+Use its cross-architecture throughput comparison as preliminary until the
+baseline and pipeline timing boundaries are standardized and rerun.
+
+Experiment 4 contains one sustained run per architecture unless additional
+runs exist in the results folder. Describe a single-run dataset as a
+preliminary sustained thermal characterization.
+
+The script computes aggregate leakage as total leaked visible target-frames
+divided by total visible target-frames. It does not average run-level
+percentage values.

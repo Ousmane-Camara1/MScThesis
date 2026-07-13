@@ -1,0 +1,5 @@
+configuration,Protected,Partially protected,Leaked
+A: Pure YuNet,65.194407,10.709413,24.096180
+B: Tracker only,65.825375,16.592769,17.581855
+"C: FSM, no expansion",65.654843,18.281037,16.064120
+D: Full Pipeline V2,65.927694,18.417462,15.654843

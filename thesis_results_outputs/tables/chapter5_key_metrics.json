@@ -1,0 +1,24 @@
+{
+  "e1": {
+    "architectures": 6,
+    "runs": 180
+  },
+  "e2": {
+    "runs": 60
+  },
+  "e3": {
+    "phase_a_runs": 90,
+    "phase_b_runs": 60
+  },
+  "e4": {
+    "runs": 4,
+    "raw_frame_rows": 108000
+  },
+  "e5": {
+    "runs": 120
+  },
+  "e6": {
+    "runs": 40,
+    "videos": 1
+  }
+}

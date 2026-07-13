@@ -1,0 +1,5 @@
+architecture,run_id,duration_seconds,first_minute_fps,last_minute_fps,fps_change_pct,mean_cpu_percent,peak_temperature_c,minimum_cpu_frequency_mhz,throttling_samples
+Pure YuNet,20260712_180337_video9_pureyunet_r1,684.731508,38.051978,39.797501,4.587207,87.689333,75.450000,2400.000000,0
+BlazeFace,20260712_182331_video9_blazeface_r1,450.741414,58.471745,60.436914,3.360887,67.869778,68.850000,2400.000000,0
+Pipeline V1,20260712_183514_video9_v1_r1,0.000000,,,,79.440444,70.500000,2400.000000,0
+Pipeline V2,20260712_184713_video9_v2_r1,0.000000,,,,80.010111,71.050000,2400.000000,0
